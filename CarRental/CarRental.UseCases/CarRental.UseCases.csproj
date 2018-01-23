@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarRental.ApplicationSettings\CarRental.ApplicationSettings.csproj" />
+    <ProjectReference Include="..\CarRental.Domain\CarRental.Domain.csproj" />
+    <ProjectReference Include="..\CarRental.RentalStorage\CarRental.RentalStorage.csproj" />
+  </ItemGroup>
+
+</Project>
